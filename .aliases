@@ -1,18 +1,28 @@
+# List file stuff
 alias l='ls -lah'
 alias ll='ls -lh'
 
+# Git magic
 alias g='git'
 alias gb='git branch'
+alias ga='git add'
 alias gp='git pull'
 alias gs='git status'
-alias gph='git pull'
+alias gps='git push'
 alias gc='git commit'
 alias gm='git checkout master'
 alias gco='git checkout'
 alias gl='git log'
 alias gd='git diff'
+alias gt="git tag"
 alias gcolor='git config --global --add color.ui true'
 
+# Insta-server
+alias wfs="python -m SimpleHTTPServer 8888"
+
+# Editor
 alias e='$EDITOR'
 
+# shutdown/reboot stuff
 alias gtfo='sudo shutdown -h now'
+alias reboot="sudo reboot"
