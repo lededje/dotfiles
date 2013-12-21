@@ -1,6 +1,6 @@
 # List file stuff
-alias l='ls -lah'
-alias ll='ls -lh'
+alias l='ls -lh'
+alias la='ls -lah'
 
 # Git magic
 alias g='git'
@@ -16,7 +16,7 @@ alias gl='git log'
 alias gd='git diff'
 alias gt="git tag"
 alias gkeep='touch .gitkeep'
-alist gkeepr='find . -type d -exec touch {}/.gitkeep\;'
+alias gkeepr='find . -type d -exec touch {}/.gitkeep \;'
 alias gcolor='git config --global --add color.ui true'
 
 # Insta-server
