@@ -1,0 +1,3 @@
+source .aliases
+source .colors
+source git-completion.bash
