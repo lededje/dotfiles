@@ -1,3 +1,2 @@
 source ~/git/dotfiles/.aliases
 source ~/git/dotfiles/.colors
-source ~/git/dotfiles/git-completion.bash
