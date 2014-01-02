@@ -28,3 +28,9 @@ alias e='$EDITOR'
 # shutdown/reboot stuff
 alias gtfo='sudo shutdown -h now'
 alias reboot="sudo reboot"
+
+# Unsafe chrome and canary
+alias chrome='open "/Applications/Google Chrome.app"'
+alias canary='open "/Applications/Google Chrome Canary.app/"'
+alias unsafe-chrome='open "/Applications/Google Chrome.app/" --args --disable-web-security'
+alias unsafe-canary='open "/Applications/Google Chrome Canary.app/" --args --disable-web-security'
