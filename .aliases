@@ -15,8 +15,8 @@ alias gco='git checkout'
 alias gl='git log'
 alias gd='git diff'
 alias gt="git tag"
-alias gkeep='touch .gitkeep'
-alias gkeepr='find . -type d -exec touch {}/.gitkeep \;'
+alias gk='touch .gitkeep'
+alias gkr='find . -type d -exec touch {}/.gitkeep \;'
 alias gcolor='git config --global --add color.ui true'
 
 # Insta-server
