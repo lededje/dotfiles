@@ -5,6 +5,7 @@ alias la='ls -lah'
 # Git magic
 alias g='git'
 alias gb='git branch'
+alias gaa='git add --all'
 alias ga='git add'
 alias gp='git pull'
 alias gs='git status'
@@ -13,6 +14,7 @@ alias gc='git commit'
 alias gm='git checkout master'
 alias gco='git checkout'
 alias gl='git log'
+git log --pretty=format:"%h - %an, %ar : %s"
 alias gd='git diff'
 alias gt='git tag'
 alias gdmb='git branch --merged | grep -v "\*" | xargs -n 1 git branch -d'
@@ -21,7 +23,7 @@ alias gkr='find . -type d -exec touch {}/.gitkeep \;'
 alias gcolor='git config --global --add color.ui true'
 
 # Insta-server
-alias wfs="python -m SimpleHTTPServer 8888"
+alias wfs="python -m SimpleHTTPServer"
 
 # Editor
 alias e='$EDITOR'
