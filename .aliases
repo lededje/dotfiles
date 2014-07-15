@@ -21,6 +21,9 @@ alias gk='touch .gitkeep'
 alias gkr='find . -type d -exec touch {}/.gitkeep \;'
 alias gcolor='git config --global --add color.ui true'
 
+# I done this
+alias idt='vi ~/.idt'
+
 # Insta-server
 alias wfs="python -m SimpleHTTPServer"
 
@@ -36,6 +39,3 @@ alias chrome='open "/Applications/Google Chrome.app"'
 alias canary='open "/Applications/Google Chrome Canary.app/"'
 alias unsafe-chrome='open "/Applications/Google Chrome.app/" --args --disable-web-security'
 alias unsafe-canary='open "/Applications/Google Chrome Canary.app/" --args --disable-web-security'
-
-# Subl
-alias subl='/Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl'

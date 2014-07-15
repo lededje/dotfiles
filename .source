@@ -1,2 +1,2 @@
-source ~/git/dotfiles/.aliases
-source ~/git/dotfiles/.colors
+source ${funcsourcetrace[1]%/*}/.aliases
+source ${funcsourcetrace[1]%/*}/.colors
