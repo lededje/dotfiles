@@ -19,6 +19,7 @@ alias gt='git tag'
 alias gdmb='git branch --merged | grep -v "\*" | xargs -n 1 git branch -d'
 alias gk='touch .gitkeep'
 alias gkr='find . -type d -exec touch {}/.gitkeep \;'
+alias gf='git fetch'
 alias gcolor='git config --global --add color.ui true'
 alias gclean='git clean -xdfe node_modules'
 
