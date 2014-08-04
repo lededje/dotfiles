@@ -20,6 +20,7 @@ alias gdmb='git branch --merged | grep -v "\*" | xargs -n 1 git branch -d'
 alias gk='touch .gitkeep'
 alias gkr='find . -type d -exec touch {}/.gitkeep \;'
 alias gcolor='git config --global --add color.ui true'
+alias gclean='git clean -xdfe node_modules'
 
 # I done this
 alias idt='vi ~/.idt'
@@ -37,5 +38,9 @@ alias reboot="sudo reboot"
 # Unsafe chrome and canary
 alias chrome='open "/Applications/Google Chrome.app"'
 alias canary='open "/Applications/Google Chrome Canary.app/"'
-alias unsafe-chrome='open "/Applications/Google Chrome.app/" --args --disable-web-security'
-alias unsafe-canary='open "/Applications/Google Chrome Canary.app/" --args --disable-web-security'
+
+alias unsafe-chrome='open "/Applications/Google Chrome.app/" --args --disable-web-security --allow-running-insecure-content'
+alias unsafe-canary='open "/Applications/Google Chrome Canary.app/" --args --disable-web-security --allow-running-insecure-content'
+
+# What ports are being used
+alias ports='lsof -i4 -P | grep LISTEN'
