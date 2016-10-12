@@ -1,2 +1,0 @@
-source ${funcsourcetrace[1]%/*}/.aliases
-source ${funcsourcetrace[1]%/*}/.colors

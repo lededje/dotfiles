@@ -12,7 +12,7 @@ alias gs='git status'
 alias gps='git push'
 alias gc='git commit'
 alias gm='git checkout master'
-alias gbn='function(){ git checkout -b $1; git push -u origin $1}' 
+alias gbn='function(){ git checkout -b $1; git push -u origin $1}'
 alias gco='git checkout'
 alias gl='git log --pretty=format:"%h - %an, %ar : %s"'
 alias gd='git diff'
@@ -23,6 +23,8 @@ alias gkr='find . -type d -exec touch {}/.gitkeep \;'
 alias gf='git fetch'
 alias gcolor='git config --global --add color.ui true'
 alias gclean='git clean -xdfe node_modules'
+alias gau='git update-index --assume-unchanged'
+alias ganu='git update-index --no-assume-unchanged'
 
 # I done this
 alias idt='vi ~/.idt'
@@ -46,3 +48,6 @@ alias unsafe-canary='open "/Applications/Google Chrome Canary.app/" --args --dis
 
 # What ports are being used
 alias ports='lsof -i4 -P | grep LISTEN'
+
+export CLICOLOR=1
+export LSCOLORS=ExFxBxDxCxegedabagacad
