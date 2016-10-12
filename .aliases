@@ -25,9 +25,7 @@ alias gcolor='git config --global --add color.ui true'
 alias gclean='git clean -xdfe node_modules'
 alias gau='git update-index --assume-unchanged'
 alias ganu='git update-index --no-assume-unchanged'
-
-# I done this
-alias idt='vi ~/.idt'
+alias glau='git ls-files -v | grep "^[[:lower:]]"'
 
 # Insta-server
 alias wfs="python -m SimpleHTTPServer"
