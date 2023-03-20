@@ -31,6 +31,7 @@ alias glau='git ls-files -v | grep "^[[:lower:]]"'
 alias wfs="python -m SimpleHTTPServer"
 
 # Editor
+export EDITOR='/usr/bin/vim'
 alias e='$EDITOR'
 
 # shutdown/reboot stuff
